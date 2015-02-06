@@ -10,3 +10,5 @@ body {
 .container {max-width: 100rem; }
 .column-content-right {text-align:center;}
 .column-content-right img {width:100%; max-width:20rem;}
+.sub-col-left {padding-left:0; margin-left:0;}
+.sub-col-right {padding:0; margin-right:0;}
