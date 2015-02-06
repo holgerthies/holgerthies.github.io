@@ -13,6 +13,6 @@ body {
 .sub-col-left {padding-left:0; margin-left:0;}
 .sub-col-right {padding:0; margin-right:0;}
 .cv-left h3 {margin:0;}
-.cv-container {padding-top:2rem;}
+.cv-container {padding:2rem 0;}
 .cv-container p {margin:0;}
 .cv-container .col-sm-4,.cv-container .col-sm-5,.cv-container .col-sm-3 {margin-top:1rem;}
