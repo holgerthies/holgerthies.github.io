@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+html {
+  background-color: #073642;
+  color: #839496;
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    padding:10px 0;
+  background-color: transparent;
+  color: #839496;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
+}
+a, a:visited {
+  color: #b58900;
+}
+a:hover {
+  color: #cb4b16;
+}
+a.btn{
+    color:#fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #859900;
+  margin-top: 10px;
+}
+.education-title{
+  font-family: "PT Sans Narrow",sans-serif;
+  font-weight: 700;
+  font-size:18px;
+  color: #859900;
+}
+#content {
+  background-color: #002b36;
+  margin: 0 auto;
+  border: 1pt solid #586e75;
+  padding: 1em;
+  max-width: 700px;
+}
+#main-pic {
+    padding: 0;
+}
+#main-pic img{
+    max-width:100px;
+}
+.nav {float:right;}
+.navbar-header h1{font-size:25px; padding:10px; margin:0; color: #fff;}
+.column { padding:0 2rem;}
+.column-content {padding: 1rem;}
+.column-content-right {text-align:center;}
+.column-content-right img {width:100%; max-width:20rem;}
+.sub-col-left {padding-left:0; margin-left:0;}
+.sub-col-right {padding:0; margin-right:0;}
+.cv-left h3 {margin:0;}
+.cv-container {padding:2rem 0;}
+.cv-container p {margin:0;}
+.cv-container .col-sm-4,.cv-container .col-sm-5,.cv-container .col-sm-3 {margin-top:1rem;}
+footer {font-size:small;}

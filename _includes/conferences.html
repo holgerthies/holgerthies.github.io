@@ -1,0 +1,16 @@
+<div class="col-sm-12">
+  <h2>Conference Talks</h2>
+</div>
+{% for conference in site.data.conferences %}
+<div class="col-sm-9">
+  <h4>{{conference.title}}</h4>
+  <p>
+    Talk: {{conference.talk}}
+  </p>
+</div>
+<div class="col-sm-3">
+  <i class="fa fa-calendar"></i> {{conference.date}}<br/>
+  <i class="fa fa-building"></i> {{conference.place}}<br/>
+  <i class="fa fa-globe"></i> <a href="{{conference.href}}">{{conference.abbr}}</a>
+</div>
+{% endfor %}
