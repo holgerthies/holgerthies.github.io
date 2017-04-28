@@ -1,0 +1,14 @@
+<div class="col-sm-12">
+  <h2>Projects</h2>
+</div>
+{% for project in site.data.projects %}
+<div class="col-sm-12">
+  <h4>{{project.title}}</h4>
+  <p>
+    {{project.description}}
+  </p>
+</div>
+<div class="col-sm-12">
+  <i class="fa fa-globe"></i> <a href="{{conference.href}}">Project Page</a>
+</div>
+{% endfor %}
