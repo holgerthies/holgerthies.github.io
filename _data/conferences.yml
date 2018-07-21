@@ -1,5 +1,63 @@
+- title: "LA Symposium"
+  abbr: "LA2018"
+  selected: false
+  talk: "Applications of average-case complexity in analysis"
+  date: "July 2018"
+  place: "Chiba, Japan"
+  href: "http://www.nishino-lab.jp/la2018/summer.php"
+
+- title: "IEICE General Conference - Student Symposium"
+  abbr: "IEICE2018"
+  selected: false
+  talk: "Average Case Complexity for Hamiltonian systems"
+  date: "March 2018"
+  place: "Tokyo, Japan"
+  href: "https://www.dagstuhl.de/de/programm/kalender/semhp/?semnr=17481"
+
+- title: "Second Workshop on Mathematical Logic and its Applications"
+  abbr: "mla2018"
+  selected: false
+  talk: "Some results on the computational complexity of noisy dynamical systems"
+  date: "March 2018"
+  place: "Kanazawa, Japan"
+  href: "http://www.jaist.ac.jp/is/labs/ishihara-lab/mla2018/"
+
+- title: "Dagstuhl Seminar on Reliable Computation and Complexity on the Reals"
+  abbr: "Dagstuhl"
+  selected: false
+  talk: "Average Case Complexity for Hamiltonian systems"
+  date: "November 2017"
+  place: "Dagstuhl, Germany"
+  href: "https://www.dagstuhl.de/de/programm/kalender/semhp/?semnr=17481"
+
+- title: "The 15th Asian Logic Conference"
+  abbr: "ALC15"
+  selected: false
+  talk: "Average Case Complexity for the N-body problem"
+  date: "July 2017"
+  place: "Daejeon, Korea"
+  href: "https://alc15korea.wixsite.com/alckorea"
+
+- title: "Continuity, Computability, Constructivity 2017"
+  abbr: "CCC 2017"
+  selected: false
+  talk: "Average Case Complexity and Hamiltonian dynamical systems"
+  date: "June 2017"
+  place: "Nancy, France"
+  href: "http://ccc2017.loria.fr/"
+
+- title: "Computability in Europe 2017"
+  abbr: "CiE 2017"
+  selected: true
+  talk: "Average Case Complexity for the N-body problem"
+  date: "June 2017"
+  place: "Turku, Finland"
+  slides: "cie17.pdf"
+  href: "http://math.utu.fi/cie2017/"
+
 - title: "Workshop on Mathematical Logic and its Applications"
   abbr: "Core2Core 2016"
+  selected: false
   talk: "Analytic Functions and Small Complexity Classes"
   date: "September 2016"
   place: "Kyoto, Japan"
@@ -7,27 +65,34 @@
 
 - title: "The 19th Japan-Korea Joint Workshop on Algorithms and Computation"
   abbr: "WAAC 2016"
+  selected: true
   talk: "Data-types for Multidimensional Functions in Reliable Numerics - Implementations Inspired by Real Complexity Theory"
   date: "August 2016"
   place: "Hakodate, Japan"
+  slides: "waac16.pdf"
   href: "http://dopal.cs.uec.ac.jp/waac16/"
 
 - title: "Thirteenth International Conference on Computability and Complexity in Analysis"
   abbr: "CCA 2016"
+  selected: true
   talk: "Analytic Functions and Small Complexity Classes"
   date: "June 2016"
   place: "Faro, Portugal"
+  slides: "cca16.pdf"
   href: "http://cca-net.de/cca2016/"
 
 - title: "Mathematics for Computation"
   abbr: "M4C"
+  selected: true
   talk: "Analytic Functions and Ordinary Differential Equations in Exact Real Arithmetic"
   date: "May 2016"
   place: "Lower Bavaria, Germany"
+  slides: "m4c.pdf"
   href: "https://mathematics4computation.org/"
 
 - title: "PhDs in Logic VIII"
   abbr: "PhDs in Logic"
+  selected: false
   talk: "On data-types for multidimensional functions in Exact Real Arithmetic"
   date: "May 2016"
   place: "Darmstadt, Germany"
@@ -35,13 +100,15 @@
 
 - title: "69. Workshop über Algorithmen und Komplexität (Theorietag)"
   abbr: "Theorietag 2015"
+  selected: false
   talk: "Analytic continuation in iRRAM"
   date: "May 2015"
   place: "Ilmenau, Germany"
   href: "http://eiche.theoinf.tu-ilmenau.de/Theorietag2015/"
 
-- title: "Continuity, Computability, Constructivity"
+- title: "Continuity, Computability, Constructivity 2014"
   abbr: "CCC 2014"
+  selected: false
   talk: "Analytic functions in iRRAM"
   date: "September 2014"
   place: "Ljubljana, Slovenia"
@@ -49,6 +116,7 @@
 
 - title: "Eleventh International Conference on Computability and Complexity in Analysis"
   abbr: "CCA 2014"
+  selected: true
   talk: "Analytic functions in iRRAM"
   date: "July 2014"
   place: "Darmstadt, Germany"

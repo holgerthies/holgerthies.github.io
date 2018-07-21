@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="col-sm-12">
+  <h2><a href="index.html">Home</a></h2>
+</div>
+<div class="col-sm-12">
+  <h2>Conference Talks</h2>
+</div>
+{% for conference in site.data.conferences %}
+<div class="col-sm-12">
+  <h4><a href="{{conference.href}}">{{conference.title}}</a></h4>
+  {{conference.date}}, {{conference.place}}
+</div>
+{% endfor %}
+<div class="col-sm-12">
+</div>

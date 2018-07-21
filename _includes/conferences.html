@@ -1,11 +1,17 @@
 <div class="col-sm-12">
-  <h2>Conference Talks</h2>
+  <h2>Selected Conference Talks   <a href="conferences.html">(Show All)</a>
+</h2>
 </div>
 {% for conference in site.data.conferences %}
+{% if conference.selected == true %}
 <div class="col-sm-9">
   <h4>{{conference.title}}</h4>
   <p>
     Talk: {{conference.talk}}
+    {% if conference.slides %}
+    <br/>
+    Slides: <a href="files/{{conference.slides}}" title="Download Slides"><i class="fa fa-cloud-download"></a></i> 
+    {% endif %}
   </p>
 </div>
 <div class="col-sm-3">
@@ -13,6 +19,7 @@
   <i class="fa fa-building"></i> {{conference.place}}<br/>
   <i class="fa fa-globe"></i> <a href="{{conference.href}}">{{conference.abbr}}</a>
 </div>
+{% endif %}
 {% endfor %}
 <div class="col-sm-12">
 <hr/>
