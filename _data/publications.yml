@@ -1,8 +1,9 @@
-- authors: "Akitoshi Kawamura, Holger Thies, Martin Ziegler",
+- authors: "Akitoshi Kawamura, Holger Thies, Martin Ziegler"
   title: "Average-case polynomial-time computability of Hamiltonian dynamics"
   link: "hamiltonian.pdf"
-  place:"Mathematical Foundations of Computer Science (MFCS) 2018.  LIPIcs-Leibniz International Proceedings in Informatics. Vol. 117. Schloss Dagstuhl-Leibniz-Zentrum für Informatik, 2018"
-- authors: "Akitoshi Kawamura, Florian Steinberg, Holger Thies",
+  place: "Mathematical Foundations of Computer Science (MFCS) 2018.  LIPIcs-Leibniz International Proceedings in Informatics. Vol. 117. Schloss Dagstuhl-Leibniz-Zentrum für Informatik, 2018"
+
+- authors: "Akitoshi Kawamura, Florian Steinberg, Holger Thies"
   title: "Parameterized Complexity for Uniform Operators on Multidimensional Analytic Functions and ODE Solving"
   link: "https://link.springer.com/chapter/10.1007/978-3-662-57669-4_13"
-  place:"International Workshop on Logic, Language, Information, and Computation. Springer, Berlin, Heidelberg, 2018."
+  place: "International Workshop on Logic, Language, Information, and Computation. Springer, Berlin, Heidelberg, 2018."

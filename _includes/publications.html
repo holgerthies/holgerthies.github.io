@@ -1,11 +1,11 @@
 <div class="col-sm-12">
+  <hr/>
+</div>
+<div class="col-sm-12">
   <h2>Publications</h2>
 </div>
 {% for publication in site.data.publications %}
 <div class="col-sm-12">
-  publication.authors: <a href="publication.link">publication.title</a>, publication.conference
+  {{publication.authors}}: <a href="{{publication.link}}">{{publication.title}}</a>, {{publication.place}}
 </div>
 {% endfor %}
-<div class="col-sm-12">
-  <hr/>
-</div>
