@@ -1,3 +1,35 @@
+- title: "Continuity, Computability, Constructivity"
+  abbr: "CCC2018"
+  selected: false
+  talk: "Second-order linear-time computability"
+  date: "September 2018"
+  place: "Faro, Portugal"
+  href: "http://w3.ualg.pt/~dgraca/ccc-2018-local.html"
+
+- title: "Workshop on Computability Theory and Foundations of Mathematics 2018"
+  abbr: "CTFM2018"
+  selected: false
+  talk: "Computable analysis and computability in linear time"
+  date: "September 2018"
+  place: "Tokyo, Japan"
+  href: "http://www.isc.meiji.ac.jp/~random/ctfm2018/"
+
+- title: "43rd International Symposium on Mathematical Foundations of Computer Science"
+  abbr: "MFCS2018"
+  selected: false
+  talk: "Average-case polynomial-time computability of Hamiltonian dynamics"
+  date: "August 2018"
+  place: "Liverpool, United Kingdom"
+  href: "http://mfcs2018.csc.liv.ac.uk/"
+
+- title: "25th Workshop on Logic, Language, Information and Computation"
+  abbr: "WoLLIC2018"
+  selected: false
+  talk: "Parameterized Complexity for Uniform Operators on Multidimensional Analytic Functions and ODE Solving"
+  date: "July 2018"
+  place: "Bogotá, Colombia"
+  href: "https://matematicas.uniandes.edu.co/eventos/2018/wollic/"
+
 - title: "LA Symposium"
   abbr: "LA2018"
   selected: false
