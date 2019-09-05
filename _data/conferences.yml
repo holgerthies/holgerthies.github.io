@@ -1,3 +1,43 @@
+- title: "The Coq Workshop 2019"
+  abbr: ""
+  selected: false,
+  talk: "Computable analysis, exact real arithmetic and analytic functions in Coq"
+  date: "September 2019"
+  place: "Portland, OR, USA"
+  href: "https://staff.aist.go.jp/reynald.affeldt/coq2019/"
+
+- title: "Computability, Continuity, Constructivity - from Logic to Algorithms 2019"
+  abbr: "CCC2019"
+  selected: true
+  talk: "Analytic ordinary differential equations - from computational complexity to efficient and verified algorithms (Invited talk)"
+  date: "September 2019"
+  place: "Ljubljana, Slovenia"
+  href: "https://www.fmf.uni-lj.si/~simpson/ccc2019"
+
+- title: "Sixteenth International Conference on Computability and Complexity in Analysis"
+  abbr: "CCA2019"
+  selected: true
+  talk: "Formal proofs about metric spaces and continuity in Coq"
+  date: "July 2019"
+  place: "Zagreb, Croatia"
+  href: "http://cca-net.de/cca2019/"
+
+- title: "15th Annual Conference on Theory and Applications of Models of Computation"
+  abbr: "TAMC2019"
+  selected: false
+  talk: "Second-order linear-time complexity and applications to computable analysis"
+  date: "April 2019"
+  place: "Kitakyushu, Japan"
+  href: "http://www.f.waseda.jp/watada/TAMC2019/"
+
+- title: "Third Workshop on Mathematical Logic and its Applications"
+  abbr: "MLA2019"
+  selected: false
+  talk: "Some formal proofs of isomorphy and discontinuity"
+  date: "March 2019"
+  place: "Nancy, France"
+  href: "https://mla2019.loria.fr/"
+
 - title: "Continuity, Computability, Constructivity"
   abbr: "CCC2018"
   selected: false
@@ -115,7 +155,7 @@
 
 - title: "Mathematics for Computation"
   abbr: "M4C"
-  selected: true
+  selected: false
   talk: "Analytic Functions and Ordinary Differential Equations in Exact Real Arithmetic"
   date: "May 2016"
   place: "Lower Bavaria, Germany"

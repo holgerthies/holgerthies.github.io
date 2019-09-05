@@ -2,10 +2,10 @@
   <hr/>
 </div>
 <div class="col-sm-12">
-  <h2>Publications</h2>
+  <h2>Publications (<a href="https://dblp.uni-trier.de/pers/hd/t/Thies:Holger">DBLP</a>)</h2>
 </div>
 {% for publication in site.data.publications %}
 <div class="col-sm-12">
-  {{publication.authors}}: <a href="{{publication.link}}">{{publication.title}}</a>, {{publication.place}}
+  {{publication.authors}}: <a href="{{publication.link}}">{{publication.title}}</a>. In <i>{{publication.journal}}</i>, {{publication.publisher}}, {{publication.pages}}, {{publication.year}}. 
 </div>
 {% endfor %}
