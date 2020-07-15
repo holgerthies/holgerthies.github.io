@@ -1,3 +1,10 @@
+- title: "The 22nd Japan-Korea Joint Workshop on Algorithms and Computation"
+  abbr: "WAAC2019"
+  selected: false,
+  talk: "Computable analysis and verified exact real computation in Coq"
+  date: "October 2019"
+  place: "Daejeon, Korea"
+  href: "https://kaist.theoryofcomputation.asia/waac2019"
 - title: "The Coq Workshop 2019"
   abbr: ""
   selected: false,
