@@ -1,0 +1,21 @@
+{% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}
+<div class="column-content">
+  <h2>Travel plans</h2>
+  Hopefully again soon.
+  {% assign sorted = (site.data.travel | sort: 'date_start') %}
+  {% for travel in sorted %}
+  {% capture date %}{{travel.date_end | date: '%s' | plus: 0 %}}{% endcapture %}
+  {% if date > now %}
+  {% assign m1 = travel.date_start | date: "%m" %}
+  {% assign m2 = travel.date_end | date: "%m" %}
+  {% if m1 == m2 %}
+  {{ travel.date_start | date: '%B %-d' }}-{{ travel.date_end | date: '%-d'}},
+  {% else %}
+  {{ travel.date_start | date: '%B %-d' }}-{{ travel.date_end | date: '%B %-d' }},
+  {% endif %}
+  <a href="{{travel.href}}">{{travel.event}}</a>,
+  {{travel.city}}, {{travel.country}}
+  <br />
+  {% endif %}
+  {% endfor %}
+</div>

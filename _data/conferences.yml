@@ -1,3 +1,11 @@
+- title: "LA Symposium"
+  abbr: "LA2019"
+  selected: false,
+  talk: "Computable analysis and verified exact real computation in Coq"
+  date: "February 2020"
+  place: "Kyoto, Japan"
+  href: "https://la2019.trs.css.i.nagoya-u.ac.jp/"
+
 - title: "The 22nd Japan-Korea Joint Workshop on Algorithms and Computation"
   abbr: "WAAC2019"
   selected: false,
@@ -5,6 +13,7 @@
   date: "October 2019"
   place: "Daejeon, Korea"
   href: "https://kaist.theoryofcomputation.asia/waac2019"
+
 - title: "The Coq Workshop 2019"
   abbr: ""
   selected: false,
@@ -127,7 +136,7 @@
 
 - title: "Computability in Europe 2017"
   abbr: "CiE 2017"
-  selected: true
+  selected: false
   talk: "Average Case Complexity for the N-body problem"
   date: "June 2017"
   place: "Turku, Finland"
@@ -144,7 +153,7 @@
 
 - title: "The 19th Japan-Korea Joint Workshop on Algorithms and Computation"
   abbr: "WAAC 2016"
-  selected: true
+  selected: false
   talk: "Data-types for Multidimensional Functions in Reliable Numerics - Implementations Inspired by Real Complexity Theory"
   date: "August 2016"
   place: "Hakodate, Japan"
@@ -153,7 +162,7 @@
 
 - title: "Thirteenth International Conference on Computability and Complexity in Analysis"
   abbr: "CCA 2016"
-  selected: true
+  selected: false
   talk: "Analytic Functions and Small Complexity Classes"
   date: "June 2016"
   place: "Faro, Portugal"
@@ -195,7 +204,7 @@
 
 - title: "Eleventh International Conference on Computability and Complexity in Analysis"
   abbr: "CCA 2014"
-  selected: true
+  selected: false
   talk: "Analytic functions in iRRAM"
   date: "July 2014"
   place: "Darmstadt, Germany"

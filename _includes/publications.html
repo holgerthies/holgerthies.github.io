@@ -1,11 +1,42 @@
 <div class="col-sm-12">
+  <h2>Publications</h2>
+  <p>See also <a href="https://dblp.uni-trier.de/pers/hd/t/Thies:Holger">DBLP</a></p>
+</div>
+<ol>
+  {% for publication in site.data.publications %}
+  {% if publication.type == "conference" %}
+  <li>
+    {{publication.authors}}: <a href="{{publication.link}}">{{publication.title}}</a>.
+    <i>{{publication.journal}}</i> ({{publication.year}}), {{publication.pages}}. 
+  </li>
+  {% endif %}
+  {% endfor %}
+</ol>
+<div class="col-sm-12">
+  <h2>Preprints</h2>
+</div>
+<ol>
+  {% for publication in site.data.publications %}
+  {% if publication.type == "preprint" %}
+  <li>
+    {{publication.authors}}: <a href="{{publication.link}}">{{publication.title}}</a>. 
+  </li>
+  {% endif %}
+  {% endfor %}
+</ol>
+<div class="col-sm-12">
+  <h2>Theses</h2>
+</div>
+<ol>
+  {% for publication in site.data.publications %}
+  {% if publication.type == "thesis" %}
+  <li>
+    {{publication.authors}}: {{publication.title}}.
+    <i>{{publication.journal}}</i> ({{publication.year}})
+  </li>
+  {% endif %}
+  {% endfor %}
+</ol>
+<div class="col-sm-12">
   <hr/>
 </div>
-<div class="col-sm-12">
-  <h2>Publications (<a href="https://dblp.uni-trier.de/pers/hd/t/Thies:Holger">DBLP</a>)</h2>
-</div>
-{% for publication in site.data.publications %}
-<div class="col-sm-12">
-  {{publication.authors}}: <a href="{{publication.link}}">{{publication.title}}</a>. In <i>{{publication.journal}}</i>, {{publication.publisher}}, {{publication.pages}}, {{publication.year}}. 
-</div>
-{% endfor %}
