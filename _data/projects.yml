@@ -1,3 +1,0 @@
-- title: "Analytic Functions and Ordinary Differential Equations in iRRAM"
-  description: "An extension of the iRRAM C++ framework by general data-types for analytic functions and for solving initial value problems for ordinary differential equations with analytic right-hand side"
-  url: "https://github.com/holgerthies/iRRAM-analytic"
